@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./image_netflix/Rectangle\ 1.png");
+    background-size: 100%;
+    font-family: "Inter", sans-serif;
+}
+
+.container{
+display: flex;
+justify-content: space-between;
+ padding: 40px;
+} 
+.netflix{
+   display: flex;
+justify-content: flex-start; 
+}
+.line{
+    margin: 40px;
+    position: relative;
+    top: -30px;
+}
+.date{
+   position: relative;
+   top: 10px;
+}
+ .search{
+    display: flex;
+    justify-content: flex-end;
+}
+.button{
+position: relative;
+top: -150px;
+right: 60px;
+}
+.avatar{
+    position: relative;
+    top: -170px;
+    right: 20px;
+}
+
+/* section */
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+
+}
+.title-block{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 37px;
+    color: #ffff;
+}
+.title-film{
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 78px;
+    color: #ffff;
+    position: relative;
+    right: 10px;
+}
+.info-block{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 37px;
+    color: #ffff;
+}
+.info-block>p{
+    position: relative;
+    right: 40px;
+}
+.text{
+display: flex;
+}
+.author{
+    position: relative;
+    left: 10px;
+    top: 2px;
+}
+.season{
+    position: relative;
+    left: 50px;
+}
+.episode{
+    position: relative;
+    left: 60px;
+    top: 3px;
+}
+    
+.author{
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 36px;
+    color: gray;
+}
+.episode{
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 35px;
+    color: gray;
+}
+.about{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    color: gray;
+}
+
+.star{
+    width: 30px;
+    height: 28px;
+    color:#FFEA2B; 
+    font-size: x-large; 
+}
+.star .fa-regular{
+color: #ffff;
+}
+.play-now{
+background-color: #D40D1F;
+text-decoration: none;
+color: #ffff;
+border-radius: 10px;
+font-size: 22px;
+padding: 20px 50px;
+position: relative;
+top: 20px;
+}
+.play-now>img{
+    position: relative;
+    top: 5px;
+}
+ .all-ep{
+border:solid white 3px;
+text-decoration: none;
+color: #ffff;
+border-radius: 10px;
+font-size: 22px;
+padding: 20px 50px;
+position: relative;
+left: 80px;
+top: 25px;
+
+} 
+.star{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 10px; 
+
+}
+.buttons{
+display: flex;
+position: relative;
+top: 40px;
+}
+/* footer */
+footer{
+    padding: 40px;
+}
+.text-container{
+    font-size: 22px;
+    color: #ffff;
+    font-weight: 800;
+    line-height: 32px;
+    position: relative;
+    top: 80px;
+}
+.film-block{
+    position: relative;
+    top: 80px;
+    display: grid;
+    grid-template-columns: repeat(30,auto);
+}
+.arrow{
+    width: 30px;
+    height: 28px;
+    color:#ffffff; 
+    font-size: x-large; 
+}
+.container2{
+    width: 10%;
+    height: 50px;
+    background: linear-gradient(to right,  #D40D1F
+    20%, #FFFFFF7D 20%);
+    margin-top: 60px;
+    display: flex; 
+}
+.container2{
+position: absolute;
+left: 90%;
+top: 90%;
+}
+.age>p{
+position: relative;
+left: 80px;
+}
