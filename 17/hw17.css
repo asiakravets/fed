@@ -1,0 +1,861 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    max-width: 1512px;
+    height: 2930px;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-style: normal;
+    font-size: 16px;
+    position: relative;
+    background-color: #fff;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+
+}
+header{
+    margin-top: 36px;
+    margin-left:26px ;
+}
+menu{
+    
+    display: flex;
+    justify-content:left;
+    align-items: start; 
+    position: relative; 
+}
+.shopp-menu{
+    display: flex;
+    gap: 20px;
+}
+.shopp-menu a{
+    display: inline-block;
+    
+    position: relative;
+    color: #000;
+    text-decoration: none;
+    margin-right: 35px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+}
+.active {
+}
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.menu-icon .bar {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 4px 0;
+}
+.shoppy {
+    display: inline-block;
+    top: -50px;
+    left: 600px;
+    position: relative;
+    color: #fff;
+    margin-right: 35px;
+    background: #000000;
+    padding: 17px 46px;
+    font-size: 19px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+
+
+}
+
+.shopp-menu>.shoppy {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    margin-right: 35px;
+    background: #000000;
+    border: 3px solid #000000;
+    padding: 17px 46px;
+    font-size: 19px;
+    font-weight: 400;
+
+}
+.search-block {
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    position: absolute;
+    top: 65px;
+    left: 93%;
+    
+}
+
+.search-block button{
+    background-color: white ;
+    border:none;   
+}
+.bag {
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    position: absolute; 
+    top: 2%;
+    left: 98%;
+
+    
+}
+.bag button{
+    background-color: white ;
+    border:none;   
+}
+.build {
+
+
+}
+.build>h1{
+position: absolute;
+top: 350px; 
+left: 20px;
+font-family: "Montserrat", sans-serif;
+font-size: 60px;
+font-weight: 800;
+line-height: 60px;
+letter-spacing: -0.05em;
+text-align: left;
+color: #000000;
+}
+shift-down{
+    position: absolute;
+    top: 65px;
+    left: 1px;
+}
+.build>p{
+position: absolute;
+top: 510px;
+left: 24px;
+font-family: "Poppins", sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+
+}
+.down{
+    position: absolute;
+    top: 30px;
+    left: 1px;
+}
+
+.now {
+    position: absolute;
+    top: 500px;
+    left:1px;
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    margin-right: 35px;
+    background: #000000;
+    border: 3px solid #000000;
+    padding: 10px 46px;
+    font-size: 19px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    border-radius: 15px;
+}
+
+.posit-img {
+}
+.img1 {
+    position: absolute;
+    top: 260px;
+    left:500px;
+
+
+}
+.img2 {
+    
+    position: absolute;
+    top: 140px;
+    left:1050px;
+}
+/* content */
+
+.content-img{
+    display: flex;
+    justify-content: center; 
+    align-items: flex-end; 
+    gap: 16px; 
+    height: 600px; 
+}
+.women {
+    position: relative;
+    display: inline-block;
+}
+.text-women{
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+    color: white; 
+    padding: 5px;
+    margin-left: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    text-align: left;
+
+}
+.img-women {
+    display: block;
+    width: 724px; 
+    height: 454px;  
+    height: auto;
+    margin-left: 24px;
+    
+}
+.wom{
+    position: absolute;
+    top: 87%; 
+    left: 83%;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+}
+.men {
+    position: relative;
+    display: inline-block;   
+}
+.text-men{
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+    color: white; 
+    padding: 5px; 
+    margin-left: 24px; 
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    text-align: left;
+}
+.omen{
+    position: absolute;
+    top: 87%; 
+    left: 8%;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left; 
+}
+.img-men {
+    display: block;
+    width: 724px; 
+    height: 454px;  
+    height: auto;
+    margin-left: 24px;
+}
+.text-element h2{
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 40px;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.text-element h3{
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 40px;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 2%;  
+}
+
+.product__slider {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 20px;
+}
+.product__slider-item {
+    margin-left: 2%;
+    flex: 0 0 auto;
+    margin-right: 10px;
+    
+    
+}
+   /* .product__slider::-webkit-scrollbar {
+    width: 300px;
+    height: 7px;
+    opacity: 0; 
+} */
+.product__slider::-webkit-scrollbar-track {
+    background: #e1e1e1; 
+    border-radius: 0px; 
+    display: none;
+} 
+
+.product__slider::-webkit-scrollbar-thumb {
+    background: #000000; 
+    border-radius: 0px; 
+}
+
+.product__slider::-webkit-scrollbar-thumb:hover {
+    background: #000000; 
+} */
+
+
+.product__slider {
+    scrollbar-color: #000000 #e1e1e1; 
+    scrollbar-width: thin;
+} 
+
+.product__slider-title {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+}
+.product__slider-price {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+.build1 {
+}
+.build1>h1{
+    position: absolute;
+    top: 2300px; 
+    left: 650px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: #000000;
+
+}
+.shift-down1 {
+    position: absolute;
+    top:97%;
+    left: 21%;
+}
+
+
+.build1>p{
+    position: absolute;
+    top: 2400px;
+    left: 610px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    
+}
+.down1{
+    position: absolute;
+    top: 100%;
+    left: 10%;
+}
+    
+.now1 {
+    position: absolute;
+    top: 280px;
+    left:620px;
+    display: inline-block;
+    position: relative;
+    color: #000;
+    margin-right: 35px;
+    background: #fff;
+    border: 1px solid #000000;
+    padding: 18px 50px;
+    font-size: 19px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    
+    
+}
+
+
+/* footer   */
+
+
+.footer-container {
+
+    font-family: 'Poppins';
+    background-color: black; 
+    width: 1512px; 
+    height: 285px; 
+    position: absolute; 
+    top: 2645px; 
+    left: 0; 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: flex-start;
+    padding-bottom: 20px;
+    margin-top: 200px;
+    
+
+    opacity: 1; 
+    color: white; 
+}
+.my_account,.my_account1,.my_account2 {
+    margin-top:50px;
+    margin-left:-80px;
+    text-align:left; 
+}
+.my_account_3,.my_account_4  {
+    margin-top:50px;
+    margin-left:-80px;
+    text-align:left; 
+}
+
+.my_account h3,.my_account1 h3,.my_account2 h3 {
+    color:  #C4C4C4;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+
+}
+.account_3 h3,.account_4 h3 {
+    color:  #C4C4C4;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+    margin-top: 60px;
+
+}
+.account a {
+    display: block; 
+    margin: 5px 0; 
+    color: white; 
+    text-decoration: none; 
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+
+}
+.account a:hover {
+    text-decoration: underline; 
+}
+.account_4 button {
+    background: none; 
+    border: none; 
+    margin: 1px; 
+    
+}
+.account_4 img {
+    width: 30px; 
+    height: 30px; 
+}
+.copyright {
+    text-align: center; 
+    width: 100%; 
+    position: absolute; 
+    bottom: 10px; 
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+    color:grey;
+
+}
+.account a {
+    display: block; 
+    margin: 5px 0; 
+    color: white; 
+    text-decoration: none; 
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+
+}
+.account a:hover {
+    text-decoration: underline; 
+}
+.account_4 button {
+    background: none; 
+    border: none; 
+    margin: 1px; 
+    
+}
+.account_4 img {
+    width: 30px; 
+    height: 30px; 
+}
+.copyright {
+    text-align: center; 
+    width: 100%; 
+    position: absolute; 
+    bottom: 10px; 
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+    color:grey;
+
+}
+
+@media(max-width: 340px){
+    body{
+        min-width: 340px;
+        padding-top: 20px;
+    }
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 35px;
+    
+    }
+    header{
+    width: 90%;
+    }
+    menu{
+        
+        display: flex;
+        justify-content:left;
+        align-items: start;  
+    }
+    .shopp-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 40px;
+        left: 0;
+        background-color: #fff;
+    }
+    .shopp-menu.active {
+        display: flex;
+    }
+    .menu-icon {
+        display: flex;
+    }
+    .shoppy {
+        display: inline-block; 
+        top: -40px;
+        left: 40px;
+        Width: 140px;
+        height: 42px;
+        padding: 6px 34px;
+    }
+    .search-block {
+        
+        position: absolute;
+        top: 2%;
+        left: 70%;
+        
+    }
+    .bag {
+        position: absolute; 
+        top: 2%;
+        left: 85%;
+    
+        
+    }
+    .build>h1{
+    position: absolute;
+    top: 350px; 
+    left: 40px;
+    }
+    .shift-down{
+        position: absolute;
+        top: 65px;
+        left: 40px;
+    }
+    .build>p{
+    position: absolute;
+    top: 520px;
+    left: 40px;
+    
+    }
+    .down{
+        position: absolute;
+        top: 30px;
+        left:20px;
+    }
+    
+  .now {
+        top: 450px;
+        left: 30px;
+        position: relative;
+        
+    
+    }
+    
+    
+    .img1 {
+        top: 120px; 
+        left: -10px;
+        width: 190px; 
+        height: auto; 
+    }
+
+.img2 {
+        top: 190px;
+        left: 119px;
+        width: 230px;
+        height: auto;
+    }
+    /* content */
+    
+    
+    
+    .text-women{
+        position: absolute;
+        top: -100px; 
+        left: -5px; 
+        font-size: 30px;
+        
+    
+    }
+    .img-women {
+        display: flex;
+        position: relative;
+        top: -100px;
+        left: -25px;
+        width: 290px;
+        height: auto;
+    }
+    .wom{
+        position: absolute;
+        top: 25%; 
+        left: 65%;
+        font-size: 15px;
+    }
+    .men {
+        
+    }
+    .text-men{
+        position: absolute;
+        top: -100px; 
+        left: -5px; 
+        font-size: 30px;
+    }
+    .omen{
+        position: absolute;
+        top: 25%; 
+        left: 7%;
+        font-size: 15px;
+    }
+    .img-men {
+        display: flex;
+        position: relative;
+        top: -100px;
+        left: -25px;
+        width: 290px;
+        height: auto;
+        
+    }
+    
+    .text-element h2{
+        font-size: 30px;   
+        margin-top: -23%;
+        margin-left: 2%;
+    }
+    .text-element h3{
+        font-size: 30px;
+        margin-top: 5%;
+        margin-left: 7%;  
+    
+    }
+    
+    
+    .product__slider::-webkit-scrollbar {
+        width: 300px;
+        height: 7px;
+        opacity: 0; 
+    }
+    
+    
+    
+    .build1>h1{
+        position: absolute;
+        top: 2130px; 
+        left: 48px;
+        line-height: 40px;
+        letter-spacing: -0.05em;
+        text-align: center;
+        
+    
+    }
+    .shift-down1 {
+        position: absolute;
+        top:97%;
+        left: 21%;
+    }
+    .build1>p{
+        position: absolute;
+        top: 2240px;
+        left: 18px;
+        
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+    
+        
+    }
+    .down1{
+        position: absolute;
+        top: 100%;
+        left: 10%;
+    }
+        
+    .now1 {
+        position: absolute;
+        top: 285px;
+        left: 25px;
+        display: inline-block;
+        position: relative;
+        color: #000;
+        margin-right: 35px;
+        background: #fff;
+        border: 1px solid #000000;
+        padding: 18px 50px;
+        font-size: 19px;
+        font-weight: 400;
+        text-decoration: none;
+        font-family: "Poppins", sans-serif;
+        
+        
+    }
+    
+    
+    /* footer   */
+    
+    
+
+
+
+    
+    .footer-container {
+        font-family: 'Poppins';
+        background-color: black;  
+        height: 600px; 
+        width: 100%;
+        margin: 0 auto;
+        padding: 100px;
+        position: absolute; 
+        top: 2600px; 
+        left: 0; 
+        
+        
+    }
+    .my_account{
+        position: absolute;
+        top: -10px;
+        left: 104px;
+        
+
+    }
+    .my_account1{
+        position: absolute;
+        top: -10px;
+        left: 280px;   
+
+    }
+    .my_account2{
+        position: absolute;
+        top:190px;
+        left: 104px;
+    }
+    .account_3{
+        position: absolute;
+        top:240px;
+        left: 190px;   
+    }
+    .account_4{
+        position: absolute;
+        top: 390px;
+        left: 25px; 
+        margin-top: 40px;
+    }
+
+    
+    .footer-container h3 {
+        margin-top: 0;
+        font-size: 16px;
+        padding-bottom: 5px;
+        color: #C4C4C4;
+    }
+    
+    .footer-container nav {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer-container nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 5px 0;
+        font-size: 14px;
+    }
+    
+    .footer-container nav a:hover {
+        text-decoration: underline;
+    }
+    
+    
+    .account_4 button {
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .account_4 button img {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .copyright {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 12px;
+        color: grey;
+        position: absolute;
+        top: 534px;
+        left: 1px;
+    }
+    
+    
+}
