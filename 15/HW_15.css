@@ -4,7 +4,11 @@
 
 body{
     background-image: url("./image_netflix/Rectangle\ 1.png");
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 4480px;
+    max-height: 2520px;
+    background-position: center;
     font-family: "Inter", sans-serif;
 }
 
@@ -109,6 +113,7 @@ display: flex;
     font-weight: 400;
     line-height: 34px;
     color: gray;
+    width: 50%;
 }
 
 .star{
@@ -175,12 +180,8 @@ footer{
     display: grid;
     grid-template-columns: repeat(30,auto);
 }
-.arrow{
-    width: 30px;
-    height: 28px;
-    color:#ffffff; 
-    font-size: x-large; 
-}
+
+
 .container2{
     width: 10%;
     height: 50px;
@@ -189,12 +190,23 @@ footer{
     margin-top: 60px;
     display: flex; 
 }
-.container2{
-position: absolute;
-left: 90%;
-top: 90%;
-}
+ .container2{
+position: fixed;
+right: 0;
+bottom: 150px;
+} 
 .age>p{
 position: relative;
 left: 80px;
 }
+
+button{
+    border: none;
+    background-color:rgba(255, 255, 255, 0.014);
+   position: relative;
+   left: 38%;
+   top: -20px;
+}
+
+/* media
+@media (max-width:430px; max-height:932px) */
